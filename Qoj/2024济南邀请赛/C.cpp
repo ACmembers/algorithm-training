@@ -36,7 +36,7 @@ void solve(){
         cnt++;
         q.push(c[i].second);
     }
-    if(dp[n]==0)std::cout<<-1<<endl;
+    if(dp[n]==0)std::cout<<0<<endl;
     else{
         std::cout<<dp[n]<<endl;
     }
